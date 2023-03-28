@@ -1,0 +1,105 @@
+:root {
+    --dark: darkslategray ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+*{
+    color: linen;
+    display: flexbox;
+}
+
+body {
+    background-image: linear-gradient(rgb(2, 8, 2), rgb(0, 0, 0));
+
+}
+
+header {
+    margin: 10px;
+    border: 2px solid linen;
+    border-radius: 10px;
+    background-color: var(--dark);
+}
+
+header h1 {
+    position: relative;
+    left: 20px;
+    text-transform: italic;
+    text-decoration: wavy;
+    text-shadow: 10px linen;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--dark);
+    margin: 20px;
+}
+
+header ul li{
+    display: inline;
+    transform: skew(-10deg);
+    font-size: 150%;
+    margin:20px;
+    list-style: none;
+    border: 0px;
+    text-align: center;
+    background-color: var(--dark);
+}
+
+.headers {
+    color: rgb(76, 187, 132);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.lists {
+    color: darkslategray;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    text-align: center;
+    list-style: none;
+}
+
+.aboutme {
+    text-shadow: 10px;
+    font-style: italic;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#tabs {
+    text-align: right;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#name {
+    font-size: 40px;
+}
+
+.contact {
+    color: rgb(152, 231, 231);
+    font-weight: bold;
+}
+
+.project-link {
+    font-size: 24px;
+    border: 2px solid cyan;
+    padding: 10px;
+}
+
+.project-image {
+    max-width: 275px;
+    max-height: 275px;
+    border: 2px solid cyan;
+    padding: 10px;
+}
+
+#project-list li {
+    list-style: none;
+    display: inline;
+}
+
+#image-list li {
+    list-style: none;
+    display: inline;
+}
